@@ -200,6 +200,20 @@ body {
   margin: 0 auto;
   padding: 10px 32px;
 }
+
+/* ----- Overlay ------ */
+.overlay {
+  background: #c4c4c4;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/overlay.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 /* ------- Work -------- */
 .work {
   padding-top: 0px;
