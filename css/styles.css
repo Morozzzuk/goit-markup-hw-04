@@ -232,12 +232,12 @@ body {
 .feature-item:not(:last-child) {
   margin-right: 30px;
 }
-.features-item::before {
+.feature-item::before {
   display: inline-block;
-  content: '';
   width: 40px;
   height: 40px;
   outline: 2px solid tomato;
+  background: red;
 }
 .feature-text {
   color: var(--text-color);
