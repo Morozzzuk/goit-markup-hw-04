@@ -5,7 +5,7 @@
   --text-color: #757575;
   --main-background-color: #ffffff;
   --secondary-background-color: #2f303a;
-  --button-background-color: #f5f4fa;
+  --third-background-color: #f5f4fa;
   --border-color: #eeeeee;
   --info-color: rgba(255, 255, 255, 0.6);
 
@@ -155,7 +155,7 @@ body {
 }
 .contact-link:hover,
 .contact-link:focus {
-  color: var(--accent-color);
+  fill: var(--accent-color);
 }
 /* Navigation part*/
 .nav-link:hover,
@@ -232,12 +232,11 @@ body {
 .feature-item:not(:last-child) {
   margin-right: 30px;
 }
-.feature-item::before {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  outline: 2px solid tomato;
-  background: red;
+.feature-item-icons {
+  background-color: var(--third-background-color);
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
 }
 .feature-text {
   color: var(--text-color);
@@ -273,22 +272,25 @@ body {
 .command-soc-items {
   width: 44px;
   height: 44px;
+  background-color: var(--main-background-color);
 }
 .command-soc-link {
   width: 100%;
   height: 100%;
   display: flex;
-  background-color: var(--main-background-color);
   border-radius: 50%;
   justify-content: center;
   align-items: center;
 }
-.command-soc-link:hover {
-  background-color: black;
-  fill: var(--accent-color);
+.command-soc-link:hover,
+.command-soc-link:focus {
+  background-color: var(--accent-color);
 }
-.command-soc-items {
-  fill: currentColor;
+.command-soc-icons {
+  fill: var(--text-color);
+}
+.command-soc-icons:hover .command-soc-icons:focus {
+  fill: white;
 }
 .command-list {
   display: flex;
@@ -313,7 +315,7 @@ body {
   border: none;
   padding: 6px 22px;
   color: var(--primary-text-color);
-  background: var(--button-background-color);
+  background: var(--third-background-color);
   cursor: pointer;
   font-size: 16px;
   line-height: 1.62;
