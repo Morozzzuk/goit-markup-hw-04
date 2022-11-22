@@ -283,6 +283,13 @@ body {
   justify-content: center;
   align-items: center;
 }
+.command-soc-link:hover {
+  background-color: black;
+  fill: var(--accent-color);
+}
+.command-soc-items {
+  fill: currentColor;
+}
 .command-list {
   display: flex;
 }
