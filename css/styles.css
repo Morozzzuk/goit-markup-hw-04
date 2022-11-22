@@ -153,9 +153,17 @@ body {
   display: block;
   padding: 32px 0;
 }
+.contact-icons {
+  display: inline-block;
+  margin-right: 10px;
+}
+.contact-icons:hover,
+.contact-icons:focus {
+  fill: var(--accent-color);
+}
 .contact-link:hover,
 .contact-link:focus {
-  fill: var(--accent-color);
+  color: var(--accent-color);
 }
 /* Navigation part*/
 .nav-link:hover,
@@ -289,7 +297,8 @@ body {
 .command-soc-icons {
   fill: var(--text-color);
 }
-.command-soc-icons:hover .command-soc-icons:focus {
+.command-soc-icons:hover,
+.command-soc-icons:focus {
   fill: white;
 }
 .command-list {
