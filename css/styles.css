@@ -280,7 +280,6 @@ body {
 .command-soc-items {
   width: 44px;
   height: 44px;
-  /* outline: 2px solid tomato; */
 }
 .command-soc-link {
   width: 100%;
@@ -300,16 +299,13 @@ body {
 .command-soc-icons:focus {
   fill: var(--secondary-text-color);
 }
-/* .command-soc-icons:hover,
-.command-soc-icons:focus {
-  
-} */
 .command-soc-icons {
   fill: #afb1b8;
 
   display: flex;
   justify-content: center;
 }
+
 /* .command-soc-link:hover {
   background-color: var(--accent-color);
   color: var(--secondary-text-color);
