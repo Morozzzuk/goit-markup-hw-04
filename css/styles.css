@@ -285,20 +285,27 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: var(--main-background-color);
+  background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
-  outline: 2px solid tomato;
 }
-.command-soc-link:hover,
+.command-soc-link:hover .command-soc-icons {
+  background-color: var(--accent-color);
+  fill: var(--secondary-text-color);
+}
+/* .command-soc-icons:hover {
+  background-color: var(--accent-color);
+  fill: var(--secondary-text-color); }*/
+
+/* .command-soc-link:hover,
 .command-soc-link:focus {
   background-color: var(--accent-color);
 }
 .command-soc-icons:hover,
 .command-soc-icons:focus {
   fill: var(--secondary-text-color);
-}
+} */
 .command-soc-icons {
   fill: #afb1b8;
 
